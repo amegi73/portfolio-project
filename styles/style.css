@@ -58,22 +58,32 @@ p {
   font-size: 24px;
 }
 
-.abot-section {
+.content-container {
   text-align: center;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
-  text-align: center;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 50px;
 }
 
@@ -111,6 +121,12 @@ p {
   .hero {
     padding: 80px 20px;
   }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -141,5 +157,5 @@ p {
 .amelie-img {
   border-radius: 4px;
   max-width: 75%;
-  margin-left: 20px;
+  margin-left: 40px;
 }
